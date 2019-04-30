@@ -102,6 +102,12 @@ p.lead {
 #sideNav .navbar-toggler:focus {
   outline-color: #aa9f9b;
 }
+@media (max-width: 992px) {
+    #sideNav{
+        visibility: hidden;
+    }
+    #mainNav{}
+}
 
 @media (min-width: 992px) {
   #sideNav {
@@ -230,6 +236,10 @@ a:active {
   text-transform: uppercase;
 }
 
+#mainNav .navbar-brand.dark {
+    color: rgba(0, 0, 0, 1)
+}
+
 @media only screen and (min-width: 992px) {
   #mainNav {
     border-bottom: 1px solid transparent;
@@ -239,12 +249,18 @@ a:active {
     padding: 10px 20px;
     color: #fff;
   }
+  #mainNav .navbar-brand.hide {
+    visibility: hidden;
+  }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: rgba(255, 255, 255, 0.8);
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
     color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item.dark > a {
+    color : rgba(0, 0, 0, 1)
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
     color: rgba(255, 255, 255, 0.8);
