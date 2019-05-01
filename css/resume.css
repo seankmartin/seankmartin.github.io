@@ -3,3 +3,6 @@
     padding-left: 17rem;
   }
 }
+#mainNav .navbar-nav > li.nav-item > a {
+  padding: 10px 15px;
+}
