@@ -262,7 +262,7 @@ a:active {
     color: rgba(0, 0, 0, 1);
   }
   #mainNav .navbar-nav > li.nav-item.active > a {
-    color: skyblue;
+    color: #3687d8;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus,
   #mainNav .navbar-nav > li.nav-item > a:hover {
@@ -454,6 +454,16 @@ header.masthead .post-heading .meta a {
   .post-preview > a > .post-title {
     font-size: 36px;
   }
+}
+
+.btn-primary {
+  background-color: #495057;
+  border: #868e96;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--main-color);
 }
 
 .floating-label-form-group {
