@@ -331,6 +331,10 @@ header.masthead .overlay {
   opacity: 0.5;
 }
 
+.page-heading {
+  padding: 100px 0 150px;
+}
+
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {

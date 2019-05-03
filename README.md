@@ -6,6 +6,8 @@
 2. Change services to blog or writings etc.
 3. Get menu text to show the current page.
 4. Work on credit badge for the contact page.
+5. Fix colouring in top bar.
+6. Make the top bar in the resume show over the side bar.
 
 [Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
 
