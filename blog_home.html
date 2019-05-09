@@ -9,7 +9,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Se&aacute;n Martin - Home</title>
+    <title>Se&aacute;n Martin - Contact</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -124,12 +124,18 @@
   </head>
 
   <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <!-- Navigation from https://startbootstrap.com/snippets/navbar-logo/-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+      ,
+      id="mainNav"
+    >
       <div class="container">
-        <a class="navbar-brand" href="index.html">Se&aacute;n Martin</a>
+        <a class="navbar-brand dark" href="index.html">
+          Se&aacute;n Martin
+        </a>
         <button
-          class="navbar-toggler navbar-toggler-right"
+          class="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarResponsive"
@@ -138,94 +144,26 @@
           aria-label="Toggle navigation"
         >
           Menu
-          <i class="fas fa-bars"></i>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                >Home
-                <span class="sr-only">(current)</span>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="resume.html">Resume</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="blog_home.html">Blog</a>
+              <span class="sr-only">(current)</span>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <!-- Page Header -->
-    <header
-      class="masthead"
-      style="background-image: url('img/presentation.jpg')"
-    >
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="page-heading">
-              <h1></h1>
-              <span class="subheading"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <p>
-            Welcome to my website in progress! Both a practical way for me to
-            learn HTML and CSS, as well as a place to share thoughts and store
-            items.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <hr />
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="text-center">
-              <div class="social-icons">
-                <a href="https://ie.linkedin.com/in/martins7maths">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="https://github.com/flabby99">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="https://twitter.com/SeankieranM">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </div>
-              <p class="copyright text-muted">
-                Copyright &copy; Se&aacute;n Martin
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/clean-blog.min.js"></script>
   </body>
 </html>
