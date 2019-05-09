@@ -3,6 +3,9 @@
     padding-left: 17rem;
   }
 }
+
 #mainNav .navbar-nav > li.nav-item > a {
-  padding: 10px 15px;
+  /* font-size: 11.5px;
+  padding: 10px 15px; */
+  padding: 18px;
 }
