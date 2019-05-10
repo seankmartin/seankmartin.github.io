@@ -3,11 +3,11 @@
 ## TODO
 
 1. Fix text on resume page when in small mode.
-2. Change services to blog or writings etc.
-3. Get menu text to show the current page.
-4. Work on credit badge for the contact page.
-5. Fix colouring in top bar.
-6. Make the top bar in the resume show over the side bar.
+2. Get menu text to show the current page.
+3. Work on credit badge for the contact page.
+4. Fix colouring in top bar.
+5. Fix size of gif in contact page.
+6. Something to do with the existence of sections causes difference in mainNav in resume.
 
 [Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
 
