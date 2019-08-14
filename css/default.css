@@ -224,7 +224,6 @@ a:active {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #343a40;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -235,11 +234,22 @@ a:active {
 }
 
 #mainNav .navbar-brand.dark {
-  color: rgba(0, 0, 0, 1);
+  color: #868e96;
+}
+
+#mainNav .navbar-brand.dark {
+  color: #868e96;
+}
+
+#mainNav.navbar.transparent {
+  background-color: #343a40;
 }
 
 @media only screen and (min-width: 992px) {
-  #mainNav {
+  #mainNav .navbar-brand.dark {
+  color: #ffffff;
+  }
+  #mainNav.navbar.transparent{
     border-bottom: 1px solid transparent;
     background: transparent;
   }
@@ -258,8 +268,8 @@ a:active {
     padding: 10px 20px;
     color: #fff;
   }
-  #mainNav .navbar-nav > li.nav-item.dark > a {
-    color: rgba(0, 0, 0, 1);
+  #mainNav .navbar-nav > li.nav-item.dark.active > a {
+    color: rgb(0, 0, 0);
   }
   #mainNav .navbar-nav > li.nav-item.active > a {
     color: #3687d8;
